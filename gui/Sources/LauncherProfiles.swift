@@ -48,19 +48,19 @@ struct AddLauncherSheet: View {
     @State private var error = ""
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Text("Подключить лаунчер").font(.system(size: 24, weight: .bold))
-            Text("Выбери существующий Wine-контейнер и Wine, которым запускается игра. CrossOver определяется автоматически; другие Wine-лаунчеры подключаются здесь.")
+            Text(L("Подключить лаунчер")).font(.system(size: 24, weight: .bold))
+            Text(L("Выбери существующий Wine-контейнер и Wine, которым запускается игра. CrossOver определяется автоматически; другие Wine-лаунчеры подключаются здесь."))
                 .font(.system(size: 12)).foregroundStyle(WarmerTheme.secondary).fixedSize(horizontal: false, vertical: true)
-            TextField("Название лаунчера или среды", text: $name)
-            pathRow("Контейнер", path: $prefix, directory: true)
-            pathRow("Wine или приложение лаунчера", path: $wine, directory: false)
-            Text("В контейнере должны быть user.reg и drive_c. Для других Wine-сред запуск с Async будет доступен из Shader Warmer.")
+            TextField(L("Название лаунчера или среды"), text: $name)
+            pathRow(L("Контейнер"), path: $prefix, directory: true)
+            pathRow(L("Wine или приложение лаунчера"), path: $wine, directory: false)
+            Text(L("В контейнере должны быть user.reg и drive_c. Для других Wine-сред запуск с Async будет доступен из Shader Warmer."))
                 .font(.system(size: 11)).foregroundStyle(WarmerTheme.secondary)
             if !error.isEmpty { Text(error).font(.system(size: 12)).foregroundStyle(WarmerTheme.error) }
             HStack {
-                Button("Отмена") { dismiss() }.buttonStyle(WarmerButtonStyle())
+                Button(L("Отмена")) { dismiss() }.buttonStyle(WarmerButtonStyle())
                 Spacer()
-                Button("Подключить") { save() }.buttonStyle(WarmerButtonStyle(prominent: true))
+                Button(L("Подключить")) { save() }.buttonStyle(WarmerButtonStyle(prominent: true))
             }
         }.textFieldStyle(.roundedBorder).padding(28).frame(width: 560)
             .foregroundStyle(WarmerTheme.text).background(WarmerTheme.background).preferredColorScheme(.dark)
@@ -70,7 +70,7 @@ struct AddLauncherSheet: View {
             Text(title).font(.system(size: 12, weight: .semibold))
             HStack {
                 TextField(title, text: path)
-                Button("Выбрать…") {
+                Button(L("Выбрать…")) {
                     let panel = NSOpenPanel(); panel.canChooseDirectories = true; panel.canChooseFiles = !directory
                     panel.allowsMultipleSelection = false; panel.treatsFilePackagesAsDirectories = false
                     if panel.runModal() == .OK, let url = panel.url { path.wrappedValue = url.path }
@@ -87,15 +87,15 @@ struct AddLauncherSheet: View {
             app = selected
             let candidates = ["Contents/SharedSupport/CrossOver/bin/wine", "Contents/Resources/wine/bin/wine64", "Contents/Resources/wine/bin/wine", "Contents/SharedSupport/wine/bin/wine64", "Contents/Resources/wine/bin/wineloader"]
             guard let found = candidates.map({ selected.appendingPathComponent($0) }).first(where: { fm.isExecutableFile(atPath: $0.path) }) else {
-                error = "Wine внутри приложения не найден. Выбери исполняемый bin/wine или bin/wine64 вручную."; return
+                error = L("Wine внутри приложения не найден. Выбери исполняемый bin/wine или bin/wine64 вручную."); return
             }
             binary = found
         } else if let range = selected.path.range(of: ".app/") { app = URL(fileURLWithPath: String(selected.path[..<range.upperBound].dropLast())) }
         guard fm.fileExists(atPath: folder.appendingPathComponent("user.reg").path), fm.fileExists(atPath: folder.appendingPathComponent("drive_c").path) else {
-            error = "Выбери корневую папку готового Wine-контейнера."; return
+            error = L("Выбери корневую папку готового Wine-контейнера."); return
         }
         guard fm.isExecutableFile(atPath: binary.path), fm.fileExists(atPath: binary.deletingLastPathComponent().appendingPathComponent("wineserver").path) else {
-            error = "Выбери Wine из полного рантайма: рядом должен находиться wineserver."; return
+            error = L("Выбери Wine из полного рантайма: рядом должен находиться wineserver."); return
         }
         let cross = binary.path.contains("/SharedSupport/CrossOver/") && fm.fileExists(atPath: folder.appendingPathComponent("cxbottle.conf").path)
         let profile = LauncherProfile(name: name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? folder.lastPathComponent : name,

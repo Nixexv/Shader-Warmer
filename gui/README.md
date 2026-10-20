@@ -17,3 +17,5 @@ Other Wine environments launch explicitly from Shader Warmer.
 The bundled D3D11 compatibility helper is reproducible from `tools/dxmt_probe.c` with
 `x86_64-w64-mingw32-gcc -Os -s -static -o dxmt_async/dxmt_probe.exe tools/dxmt_probe.c`.
 Update `probe_sha256` in `dxmt_async/manifest.json` after rebuilding it.
+
+Version 1.51 automatically selects English or Russian from macOS preferred languages, with English fallback. `Sources/Localization.swift` keeps interpolation values separate from translation keys; `Resources/Localizations.json` contains English translations of the Russian source keys. Native user-facing engine messages are translated at the GUI boundary; original diagnostic output remains available.

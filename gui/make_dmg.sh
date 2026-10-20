@@ -17,6 +17,43 @@ mkdir -p "$STAGE"
 cp -R "$APP" "$STAGE/"
 ln -s /Applications "$STAGE/Applications"
 
+cat > "$STAGE/Read Me.txt" <<TXT
+${NAME} ${VER}
+======================
+
+Drag Shader Warmer to Applications, then launch it.
+The interface follows your macOS preferred languages: English or Russian.
+English is used when none of your preferred languages is supported.
+Restart the app after changing your macOS language preferences.
+
+This app is locally signed, without Apple notarization. If macOS blocks your
+downloaded copy, open Terminal and run after installing it:
+
+  xattr -dr com.apple.quarantine "/Applications/${NAME}.app"
+
+Then open the app again. No Python, Homebrew or Xcode installation is needed.
+
+DXMT Async requires Apple Silicon, macOS 15+, Rosetta 2 and a compatible
+Windows x64 game running in DirectX 11 mode.
+
+GameHub: select Wine Proton 11 x64 and DXMT v0.80, launch the game once,
+then close it. Select the game in Shader Warmer and click Enable fix.
+After activation, launch normally from GameHub.
+
+CrossOver: select the game's bottle, close its Windows apps, then enable Async.
+After activation, launch from CrossOver or Steam. Shader Warmer can be closed.
+Activation affects the entire bottle. Keep the game in DirectX 11 mode.
+
+Other compatible Wine environments can be connected manually and launched
+through Shader Warmer. Compatibility is checked before activation.
+
+Use the disable action to restore settings. Disable Async before removing
+Shader Warmer's backups or private runtimes from Library/Application Support.
+New objects or effects may briefly appear late while compiling.
+
+Russian installation instructions: Как открыть.txt.
+TXT
+
 cat > "$STAGE/Как открыть.txt" <<TXT
 ${NAME} ${VER}
 ======================

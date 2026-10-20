@@ -177,7 +177,7 @@ final class Engine {
         guard !model.isBusy, model.dxmtInstalled, let game = model.selectedGame, model.selectedProfile != nil else { return }
         let panel = NSOpenPanel(); panel.canChooseDirectories = false; panel.canChooseFiles = true
         panel.allowsMultipleSelection = false; panel.directoryURL = URL(fileURLWithPath: game.path)
-        panel.message = "Выбери .exe этой игры. Запуск использует выбранный Wine и DXMT Async."
+        panel.message = L("Выбери .exe этой игры. Запуск использует выбранный Wine и DXMT Async.")
         if let name = game.exeName { panel.nameFieldStringValue = name }
         guard panel.runModal() == .OK, let exe = panel.url else { return }
         let arguments = baseArgs(model, forWarm: false) + ["--launch", "--exe", exe.path, "--launch-args", game.launchArguments ?? ""]
@@ -185,12 +185,12 @@ final class Engine {
             let (out, err) = await runCapture(arguments)
             guard model.selectedGame?.id == game.id else { return }
             if !err.isEmpty {
-                model.statusText = err.trimmingCharacters(in: .whitespacesAndNewlines); model.appendLog(err)
+                model.statusText = L10n.message(err.trimmingCharacters(in: .whitespacesAndNewlines)); model.appendLog(err)
                 let alert = NSAlert(); alert.alertStyle = .warning
-                alert.messageText = "Не удалось запустить игру"; alert.informativeText = model.statusText
+                alert.messageText = L("Не удалось запустить игру"); alert.informativeText = model.statusText
                 alert.runModal()
             }
-            else { model.statusText = "Команда запуска передана Wine" }
+            else { model.statusText = L("Команда запуска передана Wine") }
             if !out.isEmpty { model.appendLog(out) }
         }
     }
@@ -198,15 +198,15 @@ final class Engine {
     // One-shot detection: warm.py --detect prints a JSON line.
     func detect(_ model: WarmerModel) async {
         if model.containerScope && model.selectedProfile == nil {
-            model.runtimeError = "Лаунчер этой игры не найден. Нажми «Сменить лаунчер» и выбери среду заново."
+            model.runtimeError = L("Лаунчер этой игры не найден. Нажми «Сменить лаунчер» и выбери среду заново.")
             model.phase = .idle; model.detectedGameID = model.selectedGame?.id; return
         }
         if model.containerScope { model.method = .dxmt }
         guard Engine.python != nil else {
             scanLibrary(model)                            // the game list needs no Python
-            model.runtimeError = "Встроенный Python не найден — переустанови Shader Warmer из DMG"
+            model.runtimeError = L("Встроенный Python не найден — переустанови Shader Warmer из DMG")
             model.phase = .idle
-            model.statusText = "Повреждена установка приложения"
+            model.statusText = L("Повреждена установка приложения")
             return
         }
         let target = model.selectedGame?.id
@@ -227,7 +227,7 @@ final class Engine {
             scanLibrary(model)
             Engine.writeDiagnostic("detect_error_gui.log", "stdout:\n\(out)\n\nstderr:\n\(err)")
             let last = err.split(separator: "\n").last.map(String.init) ?? ""
-            model.runtimeError = "не удалось опросить систему" + (last.isEmpty ? "" : ": \(last)")
+            model.runtimeError = L("не удалось опросить систему") + (last.isEmpty ? "" : ": \(last)")
             model.phase = .idle
             return
         }
@@ -247,17 +247,17 @@ final class Engine {
         model.dxmtAvailable = obj["dxmt_available"] as? Bool ?? false
         model.dxmtInstalled = obj["dxmt_installed"] as? Bool ?? false
         model.dxmtCanRestore = obj["dxmt_backup"] as? Bool ?? false
-        model.dxmtDetail = obj["dxmt_detail"] as? String ?? ""
+        model.dxmtDetail = L10n.message(obj["dxmt_detail"] as? String ?? "")
         model.dxmtLogDirectory = obj["dxmt_log_directory"] as? String
         model.dxmtRequiresDX11Confirmation = obj["dxmt_requires_confirmation"] as? Bool ?? false
-        model.runtimeError = obj["runtime_error"] as? String
+        model.runtimeError = (obj["runtime_error"] as? String).map(L10n.message)
         scanLibrary(model)
         model.phase = .idle
         if model.needsPlay && model.runtimeError == nil {
-            model.runtimeError = "Запусти игру один раз — прогрев берёт форматы кадра из её кэша"
+            model.runtimeError = L("Запусти игру один раз — прогрев берёт форматы кадра из её кэша")
         }
-        model.statusText = model.deadlockRunning ? "Закрой игру и обнови"
-            : model.ready ? (model.usesDXMT ? model.dxmtDetail : "Готово к прогреву") : model.usesDXMT && model.dxmtRequiresDX11Confirmation ? "Подтверди поддержку DirectX 11" : "Укажи недостающие пути"
+        model.statusText = model.deadlockRunning ? L("Закрой игру и обнови")
+            : model.ready ? (model.usesDXMT ? model.dxmtDetail : L("Готово к прогреву")) : model.usesDXMT && model.dxmtRequiresDX11Confirmation ? L("Подтверди поддержку DirectX 11") : L("Укажи недостающие пути")
     }
 
     // Full warm run: stream @@-events into the model.
@@ -265,7 +265,7 @@ final class Engine {
         guard process == nil || process?.isRunning == false else { return }
         guard let python = Engine.python else {
             model.phase = .failed
-            model.statusText = "Встроенный Python не найден — переустанови Shader Warmer"
+            model.statusText = L("Встроенный Python не найден — переустанови Shader Warmer")
             return
         }
         model.phase = .running
@@ -277,7 +277,7 @@ final class Engine {
         model.restored = false
         model.errorReported = false
         model.warmingGame = model.selectedGame
-        model.statusText = "Запуск…"
+        model.statusText = L("Запуск…")
         model.currentStage = ""; model.stageHistory = []
         model.log.removeAll()
         model.checks.removeAll()
@@ -307,12 +307,12 @@ final class Engine {
                 model.installing = false
                 if cancelled {
                     model.phase = .cancelled
-                    model.statusText = "Отменено"
+                    model.statusText = L("Отменено")
                 } else if model.phase == .running || model.phase == .preflight {
                     model.phase = proc.terminationStatus == 0 ? .done : .failed
                     if model.phase == .failed && !model.errorReported {
                         // otherwise the card would keep saying e.g. "Извлекаю шейдеры из игры…"
-                        model.statusText = "Операция прервалась — подробности в журнале"
+                        model.statusText = L("Операция прервалась — подробности в журнале")
                     }
                 }
             }
@@ -321,7 +321,7 @@ final class Engine {
         do { try p.run() } catch {
             self.process = nil
             model.phase = .failed
-            model.statusText = "не удалось запустить python3"
+            model.statusText = L("не удалось запустить python3")
         }
     }
 
@@ -329,7 +329,7 @@ final class Engine {
         guard !model.installing, let p = process, p.isRunning else { return }
         cancelRequested = true
         model.cancelling = true
-        model.statusText = "Останавливаю…"
+        model.statusText = L("Останавливаю…")
         stopProcessTree(force: false)
         Task { @MainActor [weak self, weak p] in
             try? await Task.sleep(nanoseconds: 2_000_000_000)
@@ -362,13 +362,13 @@ final class Engine {
                 let name = e["name"] as? String ?? ""
                 model.currentStage = name
                 if model.stageHistory.last != name { model.stageHistory.append(name) }
-                model.statusText = ["extract": "Извлекаю шейдеры из игры…",
-                                    "plan": "Строю план прогрева…",
-                                    "calibrate": "Сверяю D3DMetal этой машины…",
-                                    "build": "Собираю кэш…",
-                                    "install": model.usesDXMT ? "Применяю настройки DXMT…" : "Устанавливаю готовый кэш…",
-                                    "preflight": "Проверка перед запуском…",
-                                    "warm": "Прогреваю кэш…"][name] ?? name
+                model.statusText = ["extract": L("Извлекаю шейдеры из игры…"),
+                                    "plan": L("Строю план прогрева…"),
+                                    "calibrate": L("Сверяю D3DMetal этой машины…"),
+                                    "build": L("Собираю кэш…"),
+                                    "install": model.usesDXMT ? L("Применяю настройки DXMT…") : L("Устанавливаю готовый кэш…"),
+                                    "preflight": L("Проверка перед запуском…"),
+                                    "warm": L("Прогреваю кэш…")][name] ?? name
                 model.installing = name == "install"
                 // Progress is per stage: extraction's "10 / 10 · 100%" used to stay on screen through
                 // calibration and the whole slow build.
@@ -379,12 +379,12 @@ final class Engine {
                     model.chunksTotal = e["chunks"] as? Int ?? model.chunksTotal
                 }
             case "check":
-                model.checks.append(.init(name: e["name"] as? String ?? "",
+                model.checks.append(.init(name: L10n.message(e["name"] as? String ?? ""),
                                           ok: e["ok"] as? Bool ?? false,
-                                          detail: e["detail"] as? String ?? ""))
+                                          detail: L10n.message(e["detail"] as? String ?? "")))
             case "preflight_ok":
                 model.gpuMode = e["gpu"] as? Bool ?? false
-                model.statusText = "Все проверки пройдены"
+                model.statusText = L("Все проверки пройдены")
             case "log":
                 model.logPath = e["path"] as? String
             case "plan_ready":
@@ -397,7 +397,7 @@ final class Engine {
                 model.elapsedSeconds = e["elapsed"] as? Int ?? model.elapsedSeconds
                 if let pct = e["percent"] as? Double { model.percent = pct; model.progress = pct / 100 }
                 else if let pct = e["percent"] as? Int { model.percent = Double(pct); model.progress = Double(pct)/100 }
-                model.statusText = "Прогрев шейдеров"
+                model.statusText = L("Прогрев шейдеров")
             case "chunk":
                 model.chunksDone = e["done"] as? Int ?? model.chunksDone
                 model.chunksTotal = e["total"] as? Int ?? model.chunksTotal
@@ -408,15 +408,15 @@ final class Engine {
                 model.elapsedSeconds = e["elapsed"] as? Int ?? 0
                 if let pct = e["percent"] as? Double { model.percent = pct; model.progress = pct / 100 }
                 else if let pct = e["percent"] as? Int { model.percent = Double(pct); model.progress = Double(pct)/100 }
-                model.statusText = "Прогрев шейдеров"
+                model.statusText = L("Прогрев шейдеров")
             case "done":
                 model.installing = false
                 refreshLibraryStates(model)
                 if e["method"] as? String == "dxmt" {
                     model.dxmtInstalled = e["enabled"] as? Bool ?? false
                     model.dxmtCanRestore = e["backup"] as? Bool ?? false
-                    model.dxmtDetail = (e["detail"] as? String) ?? (model.dxmtInstalled ? "Фикс включён · запускай игру через GameHub"
-                        : (e["shared_retained"] as? Bool == true ? "Настройки игры восстановлены · Async сохранён для других игр" : "Исходный DXMT и настройки игры восстановлены"))
+                    model.dxmtDetail = (e["detail"] as? String).map(L10n.message) ?? (model.dxmtInstalled ? L("Фикс включён · запускай игру через GameHub")
+                        : (e["shared_retained"] as? Bool == true ? L("Настройки игры восстановлены · Async сохранён для других игр") : L("Исходный DXMT и настройки игры восстановлены")))
                     model.dxmtLogDirectory = e["log_directory"] as? String
                     model.statusText = model.dxmtDetail
                     model.rememberWarm(shaders: 0, added: 0, method: model.dxmtInstalled ? "dxmt" : "dxmt_restore")
@@ -435,33 +435,33 @@ final class Engine {
                 model.progress = 1
                 model.percent = 100
                 model.etaSeconds = 0
-                model.statusText = "Готово"
+                model.statusText = L("Готово")
                 model.phase = .done
                 if UserDefaults.standard.object(forKey: "autoDiagnostics") as? Bool ?? true { self.startMonitor(model) }
                 Notifier.shared.notify(title: "Shader Warmer",
-                    body: "\(model.warmingGame?.name ?? "Игра"): кэш прогрет"
-                        + (model.addedShaders > 0 ? " (+\(model.addedShaders))" : "") + ". Запускай игру.")
+                    body: L("\(model.warmingGame?.name ?? L("Игра")): кэш прогрет")
+                        + (model.addedShaders > 0 ? " (+\(model.addedShaders))" : "") + L(". Запускай игру."))
             case "error":
                 model.installing = false
                 model.errorReported = true
-                let reason = e["reason"] as? String ?? "неизвестно"
+                let reason = e["reason"] as? String ?? L("неизвестно")
                 model.statusText = [
-                    "deadlock_running": "Deadlock запущен — закрой игру",
-                    "game_not_found": "Игра не найдена",
-                    "runtime_not_found": "GPTK не найден",
-                    "preflight_failed": "Проверки не пройдены — кэш не тронут",
-                    "smoke_failed": "Пробный прогон не удался — кэш не тронут",
-                    "stray_family_dir": "D3DMetal ушёл в запасную папку",
-                    "warm_failed": "Прогрев прервался",
-                    "build_failed": "Не удалось собрать кэш",
-                    "extract_failed": "Не удалось извлечь шейдеры",
-                    "game_unreadable": "Файлы игры не читаются — проверь диск, на котором она лежит",
-                    "plan_failed": "Не удалось построить план прогрева",
-                    "warm_empty": "Прогрев не оставил записей",
-                ][reason] ?? ("Ошибка: " + reason)
+                    "deadlock_running": L("Deadlock запущен — закрой игру"),
+                    "game_not_found": L("Игра не найдена"),
+                    "runtime_not_found": L("GPTK не найден"),
+                    "preflight_failed": L("Проверки не пройдены — кэш не тронут"),
+                    "smoke_failed": L("Пробный прогон не удался — кэш не тронут"),
+                    "stray_family_dir": L("D3DMetal ушёл в запасную папку"),
+                    "warm_failed": L("Прогрев прервался"),
+                    "build_failed": L("Не удалось собрать кэш"),
+                    "extract_failed": L("Не удалось извлечь шейдеры"),
+                    "game_unreadable": L("Файлы игры не читаются — проверь диск, на котором она лежит"),
+                    "plan_failed": L("Не удалось построить план прогрева"),
+                    "warm_empty": L("Прогрев не оставил записей"),
+                ][reason] ?? (L("Ошибка: ") + L10n.message(reason))
                 model.phase = .failed
                 Notifier.shared.notify(title: "Shader Warmer",
-                                       body: "\(model.warmingGame?.name ?? "Прогрев"): \(model.statusText)")
+                                       body: "\(model.warmingGame?.name ?? L("Прогрев")): \(model.statusText)")
             default: break
             }
         } else {
@@ -496,7 +496,7 @@ final class Engine {
     // crashing --detect left nothing behind to diagnose.
     private func runCapture(_ args: [String]) async -> (String, String) {
         await withCheckedContinuation { cont in
-            guard let python = Engine.python else { cont.resume(returning: ("", "python3 не найден")); return }
+            guard let python = Engine.python else { cont.resume(returning: ("", L("python3 не найден"))); return }
             let p = Process()
             p.executableURL = URL(fileURLWithPath: python)
             p.environment = Engine.engineEnvironment()
@@ -531,7 +531,7 @@ final class Engine {
                 watchdog.setEventHandler {}; watchdog.cancel()
                 readers.wait()
                 if deadline.expired {
-                    cont.resume(returning: ("", "Проверка не завершилась за 45 секунд. Проверь доступность диска и повтори."))
+                    cont.resume(returning: ("", L("Проверка не завершилась за 45 секунд. Проверь доступность диска и повтори.")))
                     return
                 }
                 cont.resume(returning: output.strings)

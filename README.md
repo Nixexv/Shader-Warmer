@@ -8,6 +8,10 @@ Shader Warmer enables a patched **DXMT Async** build for compatible **DirectX 11
 
 When a graphics pipeline is still compiling, the patch can skip its draw rather than wait for completion. Objects or effects may briefly appear late. This trade-off needs visual testing in each game; it is not a universal fix or a guaranteed increase in average FPS.
 
+## Interface language
+
+The app automatically follows your macOS preferred languages: **English or Russian**. Regional variants are supported. If neither language is in your preferred list, it uses English. Restart the app after changing macOS language preferences.
+
 ## Requirements
 
 - Apple Silicon Mac, **macOS 15+**, Rosetta 2 for DXMT Async.
@@ -26,14 +30,14 @@ The UI supports macOS 14+, but Async requires macOS 15+. The downloaded app incl
    xattr -dr com.apple.quarantine "/Applications/Shader Warmer.app"
    ```
 
-3. Close the game and Windows apps in its environment. Select the game and launcher in Shader Warmer, choose **DXMT Async**, then **Включить фикс**.
+3. Close the game and Windows apps in its environment. Select the game and launcher in Shader Warmer, choose **DXMT Async**, then **Enable fix**.
 4. Keep the game in DX11 mode. Launch normally from GameHub or CrossOver/Steam; Shader Warmer can be closed. Other connected Wine environments use the launch action in Shader Warmer.
 
 Use the disable action to restore managed settings. CrossOver activation affects the **entire bottle**. Keep `~/Library/Application Support/ShaderWarmer/` while Async is enabled; disable it before deleting its backups/private runtimes. Game files are not patched.
 
 ## Release scope
 
-Version **1.50** is an early public release. Manual Deadlock testing received positive smoothness feedback, but a controlled quantitative benefit has not been established for this build. No acceleration percentage or complete stutter elimination is claimed.
+Version **1.51** is an early public release. Manual Deadlock testing received positive smoothness feedback, but a controlled quantitative benefit has not been established for this build. No acceleration percentage or complete stutter elimination is claimed.
 
 This method does not support DX12-only or 32-bit games. Experimental D3DMetal/DX12 Async research is **not included**. The optional GPTK warmer is a separate existing workflow.
 

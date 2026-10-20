@@ -26,12 +26,12 @@ struct GameLibraryView: View {
             VStack(alignment: .leading, spacing: 26) {
                 HStack(alignment: .center) {
                     VStack(alignment: .leading, spacing: 7) {
-                        Text("Мои игры").font(.system(size: 29, weight: .bold))
-                        Text("Меньше пауз при компиляции шейдеров.")
+                        Text(L("Мои игры")).font(.system(size: 29, weight: .bold))
+                        Text(L("Меньше пауз при компиляции шейдеров."))
                             .font(.system(size: 13)).foregroundStyle(WarmerTheme.secondary)
                     }
                     Spacer()
-                    Button(action: onAdd) { Label("Добавить игру", systemImage: "plus") }
+                    Button(action: onAdd) { Label(L("Добавить игру"), systemImage: "plus") }
                         .buttonStyle(WarmerButtonStyle(prominent: true))
                 }
                 if model.isBusy, let game = model.warmingGame {
@@ -48,32 +48,32 @@ struct GameLibraryView: View {
                 }
                 HStack {
                     Menu {
-                        Button("Все лаунчеры") { model.libraryLauncher = "all" }
+                        Button(L("Все лаунчеры")) { model.libraryLauncher = "all" }
                         Button("GameHub") { model.libraryLauncher = "gamehub" }
                         ForEach(model.launcherProfiles) { profile in
                             Button(profile.title) { model.libraryLauncher = profile.id }
                         }
                         Divider()
-                        Button("Подключить другой лаунчер…") { model.showingAddLauncher = true }
+                        Button(L("Подключить другой лаунчер…")) { model.showingAddLauncher = true }
                     } label: {
-                        Label(model.libraryLauncher == "all" ? "Все лаунчеры" : model.libraryLauncher == "gamehub" ? "GameHub" : model.launcherProfiles.first(where: { $0.id == model.libraryLauncher })?.title ?? "Выбрать лаунчер", systemImage: "arrow.left.arrow.right")
+                        Label(model.libraryLauncher == "all" ? L("Все лаунчеры") : model.libraryLauncher == "gamehub" ? "GameHub" : model.launcherProfiles.first(where: { $0.id == model.libraryLauncher })?.title ?? L("Выбрать лаунчер"), systemImage: "arrow.left.arrow.right")
                     }.menuStyle(.borderlessButton).fixedSize().font(.system(size: 12, weight: .medium))
                     Spacer()
                 }
                 toolbar
                 HStack(spacing: 18) {
-                    filterButton("Все игры", active: !enabledOnly) { enabledOnly = false }
-                    filterButton("Async включён", active: enabledOnly) { enabledOnly = true }
+                    filterButton(L("Все игры"), active: !enabledOnly) { enabledOnly = false }
+                    filterButton(L("Async включён"), active: enabledOnly) { enabledOnly = true }
                     Spacer()
-                    Text("\(filtered.count) из \(model.games.count)")
+                    Text(L("\(filtered.count) из \(model.games.count)"))
                         .font(.system(size: 11)).foregroundStyle(WarmerTheme.secondary)
                 }
                 if model.games.isEmpty {
-                    EmptyLibraryState(title: "Добавь первую игру", message: "Выбери папку Windows-игры или установи её через GameHub.", symbol: "plus.square.dashed")
+                    EmptyLibraryState(title: L("Добавь первую игру"), message: L("Выбери папку Windows-игры или установи её через GameHub."), symbol: "plus.square.dashed")
                 } else if filtered.isEmpty && search.isEmpty && !enabledOnly && model.libraryLauncher != "all" {
-                    EmptyLibraryState(title: "Добавь игру для этого лаунчера", message: "Нажми «Добавить игру» и выбери папку её Windows-версии. Будем использовать выбранный контейнер.", symbol: "plus.square.dashed")
+                    EmptyLibraryState(title: L("Добавь игру для этого лаунчера"), message: L("Нажми «Добавить игру» и выбери папку её Windows-версии. Будем использовать выбранный контейнер."), symbol: "plus.square.dashed")
                 } else if filtered.isEmpty {
-                    EmptyLibraryState(title: "Игры не найдены", message: "Попробуй другое название или вернись ко всем играм.", symbol: "magnifyingglass")
+                    EmptyLibraryState(title: L("Игры не найдены"), message: L("Попробуй другое название или вернись ко всем играм."), symbol: "magnifyingglass")
                 } else if listMode {
                     LazyVStack(spacing: 10) {
                         ForEach(filtered) { game in LibraryGameCard(game: game, list: true) { onSelect(game) } }
@@ -98,22 +98,22 @@ struct GameLibraryView: View {
         HStack(spacing: 12) {
             HStack(spacing: 10) {
                 Image(systemName: "magnifyingglass").foregroundStyle(WarmerTheme.secondary)
-                TextField("Поиск игр…", text: $search).textFieldStyle(.plain).font(.system(size: 13))
-                    .accessibilityLabel("Поиск игр").focused($searchFocused)
+                TextField(L("Поиск игр…"), text: $search).textFieldStyle(.plain).font(.system(size: 13))
+                    .accessibilityLabel(L("Поиск игр")).focused($searchFocused)
                 if !search.isEmpty {
                     Button { search = "" } label: { Image(systemName: "xmark.circle.fill") }
-                        .buttonStyle(.plain).foregroundStyle(WarmerTheme.secondary).accessibilityLabel("Очистить поиск")
+                        .buttonStyle(.plain).foregroundStyle(WarmerTheme.secondary).accessibilityLabel(L("Очистить поиск"))
                 }
             }.padding(.horizontal, 14).frame(height: 42).frame(maxWidth: 420)
                 .background(WarmerTheme.surface, in: RoundedRectangle(cornerRadius: 10))
                 .overlay(RoundedRectangle(cornerRadius: 10).stroke(searchFocused ? WarmerTheme.accent.opacity(0.7) : WarmerTheme.border))
             Spacer()
             Button(action: onRefresh) { Image(systemName: "arrow.clockwise") }
-                .buttonStyle(WarmerButtonStyle(compact: true)).help("Обновить библиотеку")
-                .accessibilityLabel("Обновить библиотеку").disabled(model.isBusy)
+                .buttonStyle(WarmerButtonStyle(compact: true)).help(L("Обновить библиотеку"))
+                .accessibilityLabel(L("Обновить библиотеку")).disabled(model.isBusy)
             HStack(spacing: 2) {
-                displayButton("square.grid.2x2.fill", active: !listMode, label: "Показать сеткой") { listMode = false }
-                displayButton("list.bullet", active: listMode, label: "Показать списком") { listMode = true }
+                displayButton("square.grid.2x2.fill", active: !listMode, label: L("Показать сеткой")) { listMode = false }
+                displayButton("list.bullet", active: listMode, label: L("Показать списком")) { listMode = true }
             }.padding(4).background(WarmerTheme.surface, in: RoundedRectangle(cornerRadius: 10))
                 .overlay(RoundedRectangle(cornerRadius: 10).stroke(WarmerTheme.border))
         }
@@ -159,11 +159,11 @@ private struct LibraryGameCard: View {
     }
     private var busy: Bool { model.isBusy && model.warmingGame?.id == game.id }
     private var status: String {
-        if busy { return model.usesDXMT ? "Применение фикса" : "Идёт прогрев" }
-        if issue { return "Нужна подготовка" }
-        if enabled { return "Фикс включён" }
-        if model.lastWarm?.game == game.name && model.lastWarm?.method == nil { return "Прогрев выполнен" }
-        return game.canUseDXMT ? "Доступен DXMT Async" : game.supported ? "Доступен GPTK" : "Нет доступного метода"
+        if busy { return model.usesDXMT ? L("Применение фикса") : L("Идёт прогрев") }
+        if issue { return L("Нужна подготовка") }
+        if enabled { return L("Фикс включён") }
+        if model.lastWarm?.game == game.name && model.lastWarm?.method == nil { return L("Прогрев выполнен") }
+        return game.canUseDXMT ? L("Доступен DXMT Async") : game.supported ? L("Доступен GPTK") : L("Нет доступного метода")
     }
     private var statusColor: Color { issue ? WarmerTheme.error : enabled ? WarmerTheme.success : game.canUseDXMT ? WarmerTheme.accent : WarmerTheme.secondary }
     private var selected: Bool { model.selectedGame?.id == game.id }
@@ -176,7 +176,7 @@ private struct LibraryGameCard: View {
                         ArtworkView(game: game).frame(width: 68, height: 90).clipShape(RoundedRectangle(cornerRadius: 8))
                         VStack(alignment: .leading, spacing: 9) {
                             Text(game.name).font(.system(size: 15, weight: .semibold)).lineLimit(1)
-                            Text(game.profileID.flatMap { id in model.launcherProfiles.first { $0.id == id }?.title } ?? game.source).font(.system(size: 11)).foregroundStyle(WarmerTheme.secondary)
+                            Text(game.profileID.flatMap { id in model.launcherProfiles.first { $0.id == id }?.title } ?? L10n.message(game.source)).font(.system(size: 11)).foregroundStyle(WarmerTheme.secondary)
                         }
                         Spacer()
                         Label(status, systemImage: enabled ? "checkmark.circle.fill" : "circle.fill")
@@ -205,7 +205,7 @@ private struct LibraryGameCard: View {
         }.buttonStyle(.plain).onHover { hovered = $0 }
             .accessibilityLabel("\(game.name), \(status)")
             .contextMenu {
-                Button("Открыть папку игры") { NSWorkspace.shared.open(URL(fileURLWithPath: game.path)) }
+                Button(L("Открыть папку игры")) { NSWorkspace.shared.open(URL(fileURLWithPath: game.path)) }
             }
     }
 }

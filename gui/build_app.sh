@@ -28,8 +28,9 @@ swiftc -O -parse-as-library \
     -target arm64-apple-macos14.0 \
     -framework SwiftUI -framework AppKit -framework UserNotifications \
     -o "$APP/Contents/MacOS/DeadlockWarmer" \
-    Sources/Model.swift Sources/LauncherProfiles.swift Sources/GameScanner.swift Sources/GameIcons.swift Sources/Engine.swift Sources/Notifier.swift Sources/DesignSystem.swift Sources/GameArtwork.swift Sources/LibraryView.swift Sources/GameDetailView.swift Sources/SettingsView.swift Sources/ContentView.swift Sources/App.swift
+    Sources/Localization.swift Sources/Model.swift Sources/LauncherProfiles.swift Sources/GameScanner.swift Sources/GameIcons.swift Sources/Engine.swift Sources/Notifier.swift Sources/DesignSystem.swift Sources/GameArtwork.swift Sources/LibraryView.swift Sources/GameDetailView.swift Sources/SettingsView.swift Sources/ContentView.swift Sources/App.swift
 
+cp Resources/Localizations.json "$APP/Contents/Resources/Localizations.json"
 cp Info.plist "$APP/Contents/Info.plist"
 /usr/libexec/PlistBuddy -c "Set :CFBundleName ${NAME}" "$APP/Contents/Info.plist"
 /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName ${NAME}" "$APP/Contents/Info.plist"

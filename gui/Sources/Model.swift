@@ -68,7 +68,7 @@ final class WarmerModel: ObservableObject {
     @Published var libraryLauncher = "all"
     @Published var showingAddLauncher = false
     var selectedProfile: LauncherProfile? { launcherProfiles.first { $0.id == selectedGame?.profileID } }
-    var launcherTitle: String { selectedProfile?.title ?? (selectedGame?.profileID == nil ? "GameHub" : "Среда недоступна") }
+    var launcherTitle: String { selectedProfile?.title ?? (selectedGame?.profileID == nil ? "GameHub" : L("Среда недоступна")) }
     var containerScope: Bool { selectedGame?.profileID != nil }
     var legacyAvailable: Bool { selectedGame?.supported == true && !containerScope }
 
@@ -113,7 +113,7 @@ final class WarmerModel: ObservableObject {
     @Published var lastWarm: LastWarm? = LastWarm.load()
 
     // progress
-    @Published var statusText = "Проверяю систему…"
+    @Published var statusText = L("Проверяю систему…")
     @Published var currentStage = ""
     @Published var stageHistory: [String] = []
     @Published var progress: Double = 0        // 0…1 during warm

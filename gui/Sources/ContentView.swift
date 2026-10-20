@@ -52,16 +52,16 @@ struct ContentView: View {
         VStack(spacing: 16) {
             Image(systemName: "flame.fill").font(.system(size: 25)).foregroundStyle(WarmerTheme.accent)
                 .frame(height: 60).padding(.top, 8).accessibilityLabel("Shader Warmer")
-            navigation(.main, title: "Главная", symbol: "house.fill")
-            navigation(.settings, title: "Настройки", symbol: "gearshape.fill")
+            navigation(.main, title: L("Главная"), symbol: "house.fill")
+            navigation(.settings, title: L("Настройки"), symbol: "gearshape.fill")
             Spacer()
             Button(action: collectLogs) {
                 VStack(spacing: 7) {
                     Image(systemName: "doc.zipper").font(.system(size: 18))
-                    Text(collectingLogs ? "Собираем…" : "Логи").font(.system(size: 10))
+                    Text(collectingLogs ? L("Собираем…") : L("Логи")).font(.system(size: 10))
                 }.foregroundStyle(WarmerTheme.secondary).frame(width: 68, height: 58)
-            }.buttonStyle(.plain).disabled(collectingLogs || model.isBusy).help("Собрать логи")
-                .accessibilityLabel("Собрать логи")
+            }.buttonStyle(.plain).disabled(collectingLogs || model.isBusy).help(L("Собрать логи"))
+                .accessibilityLabel(L("Собрать логи"))
             Text("v\(Self.version)").font(.system(size: 10)).foregroundStyle(WarmerTheme.secondary)
                 .padding(.bottom, 18)
         }.frame(width: 88).frame(maxHeight: .infinity).background(WarmerTheme.rail)
@@ -114,7 +114,7 @@ struct ContentView: View {
     }
 
     private func addGame() {
-        guard let url = chooseFolder("Папка установленной игры") else { return }
+        guard let url = chooseFolder(L("Папка установленной игры")) else { return }
         var g = GameScanner.manual(url)
         if let profile = model.launcherProfiles.first(where: { $0.id == model.libraryLauncher }) { g.profileID = profile.id }
         if !model.manualGames.contains(where: { $0.id == g.id }) {
@@ -127,7 +127,7 @@ struct ContentView: View {
 
     private func pickGptk() {
         guard !model.isBusy,
-              let url = chooseFolder("Папка GPTK (внутри неё external/D3DMetal.framework)") else { return }
+              let url = chooseFolder(L("Папка GPTK (внутри неё external/D3DMetal.framework)")) else { return }
         model.overrideGptk = url.path
         Task { model.phase = .detecting; await engine.detect(model) }
     }
@@ -137,7 +137,7 @@ struct ContentView: View {
         panel.canChooseDirectories = true
         panel.canChooseFiles = false
         panel.allowsMultipleSelection = false
-        panel.prompt = "Выбрать"
+        panel.prompt = L("Выбрать")
         panel.message = message
         return panel.runModal() == .OK ? panel.url : nil
     }
@@ -160,7 +160,7 @@ struct ContentView: View {
             .map { home.appendingPathComponent($0) }
             .filter { fm.fileExists(atPath: $0) }
         guard !dirs.isEmpty else {
-            showLogExportError("Логов пока нет. Сначала запусти прогрев или запись диагностики.")
+            showLogExportError(L("Логов пока нет. Сначала запусти прогрев или запись диагностики."))
             return
         }
         let staging = fm.temporaryDirectory.appendingPathComponent("ShaderWarmer-logs-\(UUID().uuidString)")
@@ -173,7 +173,7 @@ struct ContentView: View {
             if fm.fileExists(atPath: out) { try fm.removeItem(atPath: out) }
         } catch {
             try? fm.removeItem(at: staging)
-            showLogExportError("Не удалось подготовить логи: \(error.localizedDescription)")
+            showLogExportError(L("Не удалось подготовить логи: \(error.localizedDescription)"))
             return
         }
         let p = Process()
@@ -186,24 +186,24 @@ struct ContentView: View {
             try? fm.removeItem(at: staging)
             DispatchQueue.main.async {
                 if proc.terminationStatus == 0 && fm.fileExists(atPath: out) {
-                    model.statusText = "Логи сохранены на Рабочем столе"
+                    model.statusText = L("Логи сохранены на Рабочем столе")
                     NSWorkspace.shared.selectFile(out, inFileViewerRootedAtPath: NSHomeDirectory() + "/Desktop")
                 } else {
-                    showLogExportError("Не удалось создать архив логов" + (detail.isEmpty ? "." : ": \(detail)"))
+                    showLogExportError(L("Не удалось создать архив логов") + (detail.isEmpty ? "." : ": \(detail)"))
                 }
             }
         }
         do { try p.run() }
         catch {
             try? fm.removeItem(at: staging)
-            showLogExportError("Не удалось запустить архиватор: \(error.localizedDescription)")
+            showLogExportError(L("Не удалось запустить архиватор: \(error.localizedDescription)"))
         }
     }
 
     private func showLogExportError(_ message: String) {
         let alert = NSAlert()
         alert.alertStyle = .warning
-        alert.messageText = "Сбор логов"
+        alert.messageText = L("Сбор логов")
         alert.informativeText = message
         alert.runModal()
     }
