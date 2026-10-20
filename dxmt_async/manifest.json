@@ -1,0 +1,20 @@
+{
+  "version": "v0.80-async.1",
+  "dxmt_source": "https://github.com/3Shain/dxmt",
+  "dxmt_tag": "v0.80",
+  "upstream_archive_sha256": "8f260e36b5739e68f3bad613381441385c4dc7b85b78ba8de653d5a6a264529d",
+  "files": {
+    "wine/x86_64-unix/winemetal.so": "3d50d7f39c64778c71d0af2fce1cde818d09ffbce7c4f7b8ae24ae1df567c0ca",
+    "wine/i386-windows/d3d10core.dll": "c5a26310d14a30c3e1700a4d0c9865be28a11351a5c4dc5b83ab1bd8fcf7662f",
+    "wine/i386-windows/d3d11.dll": "9afc2b3419818618c4c87274435a28935b0df002caa4b9a8d3a88d3dc846b17d",
+    "wine/i386-windows/winemetal.dll": "20a6865facebdaac92b6c06fadf37d2efb5a242b22ca1c349bb57d7ad43df8e3",
+    "wine/i386-windows/dxgi.dll": "7df8cdf66e12a108410002abc77b01f70aa59b8a36a70fa0bc6ae3b056841319",
+    "wine/x86_64-windows/d3d10core.dll": "833d26971abc8661efc8b5cc18548c70ce8e482e4ea4b1d3f69a367612264d26",
+    "wine/x86_64-windows/nvapi64.dll": "7c37b66a88aa1fdb08c6035a7fe738af1c1b5eea53af78c4812498d22bef8bc3",
+    "wine/x86_64-windows/nvngx.dll": "18d5847ee524ba6eeb2eee656817ddc00a45c46759a753854335a765e997e5fe",
+    "wine/x86_64-windows/d3d11.dll": "4db75b44e5918b45458760310d9d81324cea7e124829f498ccc4173a54ef0c77",
+    "wine/x86_64-windows/winemetal.dll": "514245d533c750599614311a792c45ed600aef52948571d98c0fc70fd3df16e0",
+    "wine/x86_64-windows/dxgi.dll": "fc58aae0aba511a1ec4d2417e5bba6adb888bb14315d0f59cccdfd27f670d544"
+  },
+  "probe_sha256": "9b8fded725c6eb21c093cf85dfd598fe5127a31b4a42e052c69181ffa9266dfc"
+}

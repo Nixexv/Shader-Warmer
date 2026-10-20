@@ -1,0 +1,17 @@
+{
+  "variant": null,
+  "binary_sha256": null,
+  "game_build": null,
+  "renderer": null,
+  "scenario": null,
+  "settings": null,
+  "cache_state": null,
+  "cache_preparation": null,
+  "power_display": null,
+  "visual_check": null,
+  "hud_settings": null,
+  "repeat_number": null,
+  "variant_order": null,
+  "scene_bounds_and_exclusions": null,
+  "notes": null
+}

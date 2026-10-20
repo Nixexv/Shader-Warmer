@@ -1,0 +1,21 @@
+Shader Warmer 1.50
+
+Готовое приложение: GitHub → Releases → DeadlockWarmer.dmg.
+Перенеси Shader Warmer в Applications.
+
+Если macOS блокирует скачанное приложение, после установки выполни:
+  xattr -dr com.apple.quarantine "/Applications/Shader Warmer.app"
+
+DXMT Async: Apple Silicon, macOS 15+, Rosetta 2, Windows x64 и DirectX 11.
+Подробные шаги: README.md и docs/INSTALL.ru.md.
+
+Закрой игру, выбери её и нужную среду в программе, включи DXMT Async.
+GameHub и CrossOver затем позволяют обычный запуск без открытого Shader Warmer.
+Другие совместимые Wine-среды запускаются через Shader Warmer.
+
+В CrossOver настройка относится ко всей бутылке.
+Для восстановления используй отключение в приложении.
+Не удаляй Library/Application Support/ShaderWarmer до отключения Async.
+
+Python, Homebrew и Xcode для готовой сборки устанавливать не нужно.
+Для сборки из исходников смотри docs/BUILD.md.

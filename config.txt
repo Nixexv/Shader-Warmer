@@ -1,0 +1,9 @@
+# Заполняй только если warm.py попросит — обычно всё находится само.
+# Папка game установленной Deadlock (внутри неё citadel/ и core/)
+game =
+# Исполняемый wine из GameHub
+wine =
+# Папка GPTK (внутри неё external/D3DMetal.framework)
+gptk =
+# Контейнер Wine (папка с user.reg)
+prefix =

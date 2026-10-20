@@ -1,0 +1,11671 @@
+[
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 34,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 5,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord5"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 2,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 16,
+    "slot": 1,
+    "offset": 16,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord2",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 6,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord0",
+   "texcoord1"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 2,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 2,
+    "format": 2,
+    "slot": 1,
+    "offset": 16,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 32,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 2,
+    "slot": 1,
+    "offset": 36,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 2,
+    "slot": 1,
+    "offset": 52,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 5,
+    "format": 2,
+    "slot": 1,
+    "offset": 68,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 6,
+    "format": 2,
+    "slot": 1,
+    "offset": 84,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 7,
+    "format": 2,
+    "slot": 1,
+    "offset": 100,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 1,
+    "format": 28,
+    "slot": 1,
+    "offset": 116,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 8,
+    "format": 28,
+    "slot": 1,
+    "offset": 120,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 9,
+    "format": 6,
+    "slot": 1,
+    "offset": 124,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 10,
+    "format": 6,
+    "slot": 1,
+    "offset": 136,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "color0",
+   "color1",
+   "texcoord0",
+   "texcoord1",
+   "texcoord10",
+   "texcoord2",
+   "texcoord3",
+   "texcoord4",
+   "texcoord5",
+   "texcoord6",
+   "texcoord7",
+   "texcoord8",
+   "texcoord9"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 2,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord0",
+   "texcoord1"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 5,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord5"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 2,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 2,
+    "format": 2,
+    "slot": 0,
+    "offset": 48,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 2,
+    "slot": 0,
+    "offset": 64,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 2,
+    "slot": 0,
+    "offset": 80,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 5,
+    "format": 2,
+    "slot": 0,
+    "offset": 96,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 6,
+    "format": 2,
+    "slot": 0,
+    "offset": 112,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 7,
+    "format": 2,
+    "slot": 0,
+    "offset": 128,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord2",
+   "texcoord3",
+   "texcoord4",
+   "texcoord5",
+   "texcoord6",
+   "texcoord7"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 1,
+    "offset": 36,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 2,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 2,
+    "format": 2,
+    "slot": 1,
+    "offset": 16,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 32,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 2,
+    "slot": 1,
+    "offset": 48,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 6,
+    "slot": 1,
+    "offset": 64,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "color0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord2",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 4,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 11,
+    "slot": 0,
+    "offset": 36,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "tangent",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 48,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 52,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 56,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "tangent0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 12,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 11,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "tangent",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 48,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 52,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "tangent0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord0"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 1,
+    "format": 28,
+    "slot": 1,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "color1",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 12,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 11,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "tangent",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 48,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "tangent0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 6,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "tangent",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 36,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "tangent0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord0"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "position0"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 1,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color0",
+   "color1",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 2,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 2,
+    "format": 2,
+    "slot": 0,
+    "offset": 48,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 2,
+    "slot": 0,
+    "offset": 64,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 2,
+    "slot": 0,
+    "offset": 80,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord2",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 14,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 14,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "tangent",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 36,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "color0",
+   "normal0",
+   "position0",
+   "tangent0",
+   "texcoord0"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 34,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 36,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 1,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color1",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 5,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord5"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 6,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 6,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 2,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 1,
+    "format": 28,
+    "slot": 1,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "color1",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 34,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "color0",
+   "position0",
+   "texcoord0"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "position0"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "position0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 1,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "color1",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 5,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord5"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 5,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord5"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 1,
+    "offset": 4,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   }
+  ],
+  "semantics": [
+   "color0",
+   "position0",
+   "texcoord0"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 37,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 32,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 36,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_corpus_extension_m3_v1",
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "position0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 1,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 5,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord5"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 6,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "id_unused",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "id_unused0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 16,
+    "slot": 1,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 1,
+    "offset": 8,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 3,
+    "format": 35,
+    "slot": 1,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 1,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 2,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord3"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 16,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 6,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "normal0",
+   "position0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 37,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "texcoord",
+    "index": 1,
+    "format": 16,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 6,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 3,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord1",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendweight",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 2,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   },
+   {
+    "semantic": "sv_vertexid",
+    "index": 0,
+    "format": 42,
+    "slot": 15,
+    "offset": 4294967295,
+    "class": 1,
+    "step": 4294967295
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "blendweight0",
+   "color0",
+   "normal0",
+   "position0",
+   "sv_vertexid0",
+   "texcoord0",
+   "texcoord13"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "warm_plan"
+  ]
+ },
+ {
+  "elements": [
+   {
+    "semantic": "position",
+    "index": 0,
+    "format": 6,
+    "slot": 0,
+    "offset": 0,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 0,
+    "format": 34,
+    "slot": 0,
+    "offset": 12,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "normal",
+    "index": 0,
+    "format": 42,
+    "slot": 0,
+    "offset": 16,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 4,
+    "format": 28,
+    "slot": 0,
+    "offset": 20,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "color",
+    "index": 0,
+    "format": 28,
+    "slot": 0,
+    "offset": 24,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "blendindices",
+    "index": 0,
+    "format": 30,
+    "slot": 0,
+    "offset": 28,
+    "class": 0,
+    "step": 0
+   },
+   {
+    "semantic": "texcoord",
+    "index": 13,
+    "format": 42,
+    "slot": 1,
+    "offset": 0,
+    "class": 1,
+    "step": 1
+   }
+  ],
+  "semantics": [
+   "blendindices0",
+   "color0",
+   "normal0",
+   "position0",
+   "texcoord0",
+   "texcoord13",
+   "texcoord4"
+  ],
+  "sources": [
+   "deadlock_gameplay_input_layout_closure_m1",
+   "deadlock_recipe_universe_expansion_m0",
+   "warm_plan"
+  ]
+ }
+]

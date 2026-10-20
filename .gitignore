@@ -1,0 +1,16 @@
+.work/
+*.zip
+__pycache__/
+*.pyc
+gui/build/
+ow/bin/owshaderdump/
+.runtime-cache/
+.DS_Store
+*.dmg
+*.log
+.venv/
+.env
+.env.*
+!.env.example
+*.p12
+*.keychain-db

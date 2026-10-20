@@ -1,0 +1,8 @@
+{
+  "version": "3.13.16",
+  "release": "20261013",
+  "target": "aarch64-apple-darwin",
+  "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261013/cpython-3.13.16%2B20261013-aarch64-apple-darwin-install_only_stripped.tar.gz",
+  "sha256": "16a5332fb0dcb77f163fc8f8cbccd95be1644cc53e68e5d2a79f50afd6680a0e",
+  "archive": "cpython-3.13.16-arm64.tar.gz"
+}
