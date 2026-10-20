@@ -1,66 +1,42 @@
 # Shader Warmer
 
-**Меньше пауз от компиляции шейдеров в Windows-играх на Mac.**
+**Reduce shader compilation stalls in Windows games on Apple Silicon.**
 
-[English](README.en.md) · [Скачать](../../releases) · [Установка](docs/INSTALL.ru.md) · [Совместимость](docs/COMPATIBILITY.md)
+[Русский](README.ru.md) · [Download](../../releases) · [Compatibility](docs/COMPATIBILITY.md)
 
-Shader Warmer помогает настроить **DXMT Async** для совместимых DirectX 11 игр на Apple Silicon. Программа включает фоновую компиляцию графических пайплайнов и раннюю подготовку шейдеров, чтобы уменьшить остановки при первом появлении объектов и эффектов.
+Shader Warmer enables a patched **DXMT Async** build for compatible **DirectX 11 x64** games. It combines background graphics pipeline compilation with earlier shader preparation to reduce first-use stalls.
 
-Основная задача — плавность во время компиляции. Рост среднего FPS не гарантируется; паузы из-за загрузки ресурсов, сети или нехватки памяти требуют других решений.
+When a graphics pipeline is still compiling, the patch can skip its draw rather than wait for completion. Objects or effects may briefly appear late. This trade-off needs visual testing in each game; it is not a universal fix or a guaranteed increase in average FPS.
 
-## Как это работает
+## Requirements
 
-Графический пайплайн может понадобиться игре раньше, чем завершится его компиляция. Обычный путь в DXMT может ждать готовности. Наш патч позволяет продолжить обработку кадра и временно пропустить отрисовку, для которой пайплайн ещё не готов. Шейдеры также начинают готовиться раньше, где это поддерживает патч.
+- Apple Silicon Mac, **macOS 15+**, Rosetta 2 for DXMT Async.
+- Installed Windows x64 game running in **DirectX 11** mode and compatible with DXMT.
+- GameHub: **Wine Proton 11 x64**, **DXMT v0.80**, initialized game container.
+- CrossOver or other Wine environments: compatible installed runtime. The app checks the Async DLL and D3D11 device creation before activation.
 
-У этого подхода есть компромисс: при первом использовании объект или эффект может появиться с задержкой. Поэтому совместимость и качество картинки нужно проверять для каждой игры. Успешный запуск одной игры не означает поддержку всех DX11 игр.
+The UI supports macOS 14+, but Async requires macOS 15+. The downloaded app includes Python and native helpers; users do not need Homebrew, Python or Xcode.
 
-## Возможности
+## Install and use
 
-- Библиотека установленных игр, поиск и выбор среды запуска.
-- Включение DXMT Async и восстановление прежних настроек.
-- GameHub: после включения можно запускать игру обычным способом.
-- CrossOver: после включения можно запускать из CrossOver или Steam, закрыв Shader Warmer. Настройка действует на всю выбранную бутылку.
-- Подключение других совместимых Wine-сред с запуском через Shader Warmer.
-- Локальные резервные копии, проверка компонентов и сбор диагностики по запросу.
-- Дополнительный GPTK-прогрев для предусмотренных программой сценариев. Это отдельный метод, а не DX12 Async.
+1. Download `DeadlockWarmer.dmg` from [Releases](../../releases) and drag **Shader Warmer** to Applications.
+2. The app is not Apple-notarized. If macOS blocks a trusted downloaded copy, remove its quarantine attribute once after installation:
 
-## Требования
+   ```sh
+   xattr -dr com.apple.quarantine "/Applications/Shader Warmer.app"
+   ```
 
-- Mac с **Apple Silicon**, **macOS 15+** и **Rosetta 2** для DXMT Async.
-- Windows-игра **x64 с DirectX 11**, работающая в выбранной Wine-среде.
-- Для GameHub — **Wine Proton 11 x64**, **DXMT v0.80** и контейнер игры, созданный хотя бы одним обычным запуском.
-- Для CrossOver и других Wine-сред — совместимый установленный runtime. Перед активацией проверяются Async DLL и создание устройства D3D11.
+3. Close the game and Windows apps in its environment. Select the game and launcher in Shader Warmer, choose **DXMT Async**, then **Включить фикс**.
+4. Keep the game in DX11 mode. Launch normally from GameHub or CrossOver/Steam; Shader Warmer can be closed. Other connected Wine environments use the launch action in Shader Warmer.
 
-Интерфейс приложения запускается на macOS 14+, но DXMT Async требует macOS 15+. Homebrew, Python и Xcode пользователю готовой сборки не нужны.
+Use the disable action to restore managed settings. CrossOver activation affects the **entire bottle**. Keep `~/Library/Application Support/ShaderWarmer/` while Async is enabled; disable it before deleting its backups/private runtimes. Game files are not patched.
 
-## Быстрый старт
+## Release scope
 
-1. Скачайте `DeadlockWarmer.dmg` из [Releases](../../releases), откройте его и перенесите **Shader Warmer** в Applications.
-2. Если macOS блокирует скачанное приложение, выполните шаги из [инструкции первого запуска](docs/INSTALL.ru.md).
-3. Закройте игру и Windows-приложения в выбранной среде. Выберите игру и лаунчер в Shader Warmer.
-4. Выберите **DXMT Async** и нажмите **Включить фикс**. Игра должна использовать **DirectX 11**.
-5. Запустите игру обычным способом в GameHub/CrossOver либо кнопкой запуска для другой подключённой Wine-среды.
+Version **1.50** is an early public release. Manual Deadlock testing received positive smoothness feedback, but a controlled quantitative benefit has not been established for this build. No acceleration percentage or complete stutter elimination is claimed.
 
-Чтобы вернуть прежние настройки, используйте действие отключения на странице игры. В CrossOver отключение действует на бутылку целиком. Сначала отключите Async, затем удаляйте данные Shader Warmer.
+This method does not support DX12-only or 32-bit games. Experimental D3DMetal/DX12 Async research is **not included**. The optional GPTK warmer is a separate existing workflow.
 
-## Совместимость и статус
+Artwork may be fetched from Steam's public CDN; it can be disabled in settings. Logs and backups are local; diagnostic exports are user initiated. See [privacy](docs/PRIVACY.md), [build instructions](docs/BUILD.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
-Это ранний публичный выпуск **1.50**. Метод не привязан к одному движку или Deadlock, но требует совместимости игры с DXMT. **DX12-only игры и 32-битные игры этим методом не поддерживаются.**
-
-В ручных проверках Deadlock пользователь отмечал более плавную игру. Контролируемое количественное преимущество текущей версии пока не установлено; процентов ускорения и обещаний полного устранения фризов здесь нет. [Границы поддержки](docs/COMPATIBILITY.md).
-
-Экспериментальные изменения D3DMetal/DX12 из исследований в этот выпуск не включены.
-
-## Настройки и данные
-
-Файлы игр не патчатся. В GameHub заменяется общий компонент DXMT v0.80, а флаги включаются для выбранного контейнера; в CrossOver используется частная копия runtime и настройки выбранной бутылки. Это важно учитывать, если в одной среде несколько игр.
-
-Резервные копии и записи восстановления сохраняются локально в `~/Library/Application Support/ShaderWarmer/`. Не удаляйте эту папку, пока Async включён. [Данные и сеть](docs/PRIVACY.md).
-
-## Разработка
-
-Наш код и изменения открыты под **MIT**. Сторонние компоненты сохраняют свои лицензии: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-[Сборка и тесты](docs/BUILD.md) · [Вклад в проект](CONTRIBUTING.md) · [Методика измерений](benchmarks/PROTOCOL.md)
-
-Основано на [DXMT](https://github.com/3Shain/dxmt). Патчи и лицензия включены в `dxmt_async/`.
+Our code and changes are MIT-licensed. Built on [DXMT](https://github.com/3Shain/dxmt); its license and our source patches are included.

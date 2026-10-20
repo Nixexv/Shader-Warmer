@@ -7,7 +7,7 @@ Shader Warmer 1.50
   xattr -dr com.apple.quarantine "/Applications/Shader Warmer.app"
 
 DXMT Async: Apple Silicon, macOS 15+, Rosetta 2, Windows x64 и DirectX 11.
-Подробные шаги: README.md и docs/INSTALL.ru.md.
+Подробные шаги: README.ru.md и docs/INSTALL.ru.md.
 
 Закрой игру, выбери её и нужную среду в программе, включи DXMT Async.
 GameHub и CrossOver затем позволяют обычный запуск без открытого Shader Warmer.
