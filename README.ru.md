@@ -24,6 +24,23 @@ Shader Warmer помогает настроить **DXMT Async** для совм
 - Локальные резервные копии, проверка компонентов и сбор диагностики по запросу.
 - Дополнительный GPTK-прогрев для предусмотренных программой сценариев. Это отдельный метод, а не DX12 Async.
 
+## Скриншоты
+
+Английский интерфейс · Shader Warmer 1.51.
+
+![Shader Warmer game library with GameHub and CrossOver installations](docs/screenshots/library-en.png)
+
+<table>
+  <tr>
+    <th>Страница игры</th>
+    <th>Настройки</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="docs/screenshots/game-en.png"><img src="docs/screenshots/game-en.png" alt="Deadlock overview with DXMT Async enabled" width="100%"></a></td>
+    <td width="50%" valign="top"><a href="docs/screenshots/settings-en.png"><img src="docs/screenshots/settings-en.png" alt="Shader Warmer settings with automatic English language selection" width="100%"></a></td>
+  </tr>
+</table>
+
 ## Язык интерфейса
 
 Приложение автоматически выбирает **русский или английский** из предпочитаемых языков macOS, включая региональные варианты. Если поддерживаемого языка нет в списке, используется английский. После изменения языковых настроек macOS перезапустите приложение.

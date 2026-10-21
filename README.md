@@ -8,6 +8,23 @@ Shader Warmer enables a patched **DXMT Async** build for compatible **DirectX 11
 
 When a graphics pipeline is still compiling, the patch can skip its draw rather than wait for completion. Objects or effects may briefly appear late. This trade-off needs visual testing in each game; it is not a universal fix or a guaranteed increase in average FPS.
 
+## Screenshots
+
+English interface · Shader Warmer 1.51.
+
+![Shader Warmer game library with GameHub and CrossOver installations](docs/screenshots/library-en.png)
+
+<table>
+  <tr>
+    <th>Game overview</th>
+    <th>Settings</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="docs/screenshots/game-en.png"><img src="docs/screenshots/game-en.png" alt="Deadlock overview with DXMT Async enabled" width="100%"></a></td>
+    <td width="50%" valign="top"><a href="docs/screenshots/settings-en.png"><img src="docs/screenshots/settings-en.png" alt="Shader Warmer settings with automatic English language selection" width="100%"></a></td>
+  </tr>
+</table>
+
 ## Interface language
 
 The app automatically follows your macOS preferred languages: **English or Russian**. Regional variants are supported. If neither language is in your preferred list, it uses English. Restart the app after changing macOS language preferences.
